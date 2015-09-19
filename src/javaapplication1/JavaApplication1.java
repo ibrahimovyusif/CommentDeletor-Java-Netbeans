@@ -25,7 +25,6 @@ public class JavaApplication1 {
   try 
   {
     String sCurrentLine;
-    //String REGEX = "(?:/\\*(?:[^*]|(?:\\*+[^*/]))*\\*+/)|(?://.*)";
     String REGEX = "\\/\\*.*\\*\\/";
     
     File inputFile = new File(inputPath);
