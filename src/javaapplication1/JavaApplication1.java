@@ -38,12 +38,7 @@ public class JavaApplication1 {
 
     while ((sCurrentLine = br.readLine()) != null) 
     {
-<<<<<<< HEAD
-      String REPLACE = "momo";
-=======
       String REPLACE = "koko";
->>>>>>> fe4d6c0c10a68f6a96a99984f8f69855a9d90451
-
       Pattern p = Pattern.compile(REGEX);
       // get a matcher object
       Matcher m = p.matcher(sCurrentLine); 
