@@ -38,7 +38,7 @@ public class JavaApplication1 {
 
     while ((sCurrentLine = br.readLine()) != null) 
     {
-      String REPLACE = "koko";
+      String REPLACE = "";
       Pattern p = Pattern.compile(REGEX);
       // get a matcher object
       Matcher m = p.matcher(sCurrentLine); 
